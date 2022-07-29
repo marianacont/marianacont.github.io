@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family:'Roboto', sans-serif;
+    font-size: 90%;
+    color: #0e0d0d;
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: lowercase;
+    font-family: coiny, sans-serif;
+}
+
+h2 {
+    background-color: #fcee21;
+    font-weight: 700;
+}
+
+#titulo_servicios {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 41pt;
+    font-weight: 700;
+}
+
+h3 {
+    background-color: #fcee21;
+    font-size: 21pt;
+}
+
+p {
+    font-size: 21pt;
+}
+
+#encabezado {
+    font-size: 24pt;
+}
+
+h4 {
+    background-color: #0e0d0d;
+    color: #f0f0f0;
+    font-size: 51pt;
+}
+
+.marco {
+    border: solid salmon;
+    width: 600px;
+    height: 600px;
+    background-image: url(img/foto.jpg);
+}
+
+nav {
+    width: 100%;
+    border-top: solid 2px #fcee21;
+    font-size: 21pt;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#envianos {
+    background-color: #fcee21;
+    font-weight: 700;
+    font-size: 33pt;
+}
+
+footer {
+    background-color: #fcee21;
+    font-size: 21pt;
+}
+
+.cuadro {
+    border: solid 1px #fcee21;
+}
+
+#foto_nosotras, #img_servicios {
+    width: 400px;
+}
+
+#seccion_redes img {
+    width: 50px;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+}
+
+form span {
+    color: red;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+#submit, #reset {
+    display: inline;
+    background-color: #0e0d0d;
+    color: #f0f0f0;
+    border: none;
+    font-weight: 300;
+}
+
+ol li {
+    font-size: 21pt;
+    margin-top: 10pt;
+}
